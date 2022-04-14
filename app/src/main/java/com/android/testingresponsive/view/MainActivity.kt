@@ -1,4 +1,4 @@
-package com.android.testingresponsive
+package com.android.testingresponsive.view
 
 import android.os.Bundle
 import android.view.Menu
@@ -12,6 +12,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.appcompat.app.AppCompatActivity
+import com.android.testingresponsive.R
 import com.android.testingresponsive.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

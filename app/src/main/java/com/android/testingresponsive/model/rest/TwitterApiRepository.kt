@@ -1,4 +1,4 @@
-package com.android.testingresponsive.rest
+package com.android.testingresponsive.model.rest
 
 import com.android.twitterapiandroidapp.rest.TwitterApi
 import retrofit2.Response

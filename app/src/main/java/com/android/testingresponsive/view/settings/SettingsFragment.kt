@@ -1,4 +1,4 @@
-package com.android.testingresponsive.ui.settings
+package com.android.testingresponsive.view.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.android.testingresponsive.databinding.FragmentSettingsBinding
+import com.android.testingresponsive.viewmodel.SettingsViewModel
 
 class SettingsFragment : Fragment() {
 

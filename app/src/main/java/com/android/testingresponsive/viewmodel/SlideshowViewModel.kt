@@ -1,13 +1,13 @@
-package com.android.testingresponsive.ui.settings
+package com.android.testingresponsive.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SettingsViewModel : ViewModel() {
+class SlideshowViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is settings Fragment"
+        value = "This is slideshow Fragment"
     }
     val text: LiveData<String> = _text
 }

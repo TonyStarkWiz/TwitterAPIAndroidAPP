@@ -1,4 +1,4 @@
-package com.android.testingresponsive.ui.transform
+package com.android.testingresponsive.view.transform
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.android.testingresponsive.R
 import com.android.testingresponsive.databinding.FragmentTransformBinding
 import com.android.testingresponsive.databinding.ItemTransformBinding
+import com.android.testingresponsive.viewmodel.TransformViewModel
 
 /**
  * Fragment that demonstrates a responsive layout pattern where the format of the content
